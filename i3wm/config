@@ -17,6 +17,8 @@ exec --no-startup-id fluxgui
 exec xbacklight -set 16
 exec --no-startup-id urxvt -sh 30
 exec . ~/.config/polybar/launch.sh
+exec nm-applet
+exec utools
 
 # 为了设置 i3 壁纸（图片路径需要被正确设置）……
 exec --no-startup-id feh --bg-scale "/home/fa/图片/blog背景.jpg"
@@ -336,4 +338,3 @@ mode "$mode_system" {
 }
 
 gaps inner 15
-
